@@ -70,7 +70,7 @@ function getTimeDiff(startDate) {
 }
 
 function updateCounter() {
-  const startDate = '2024-03-10T00:00:00';
+  const startDate = '2024-05-10T00:00:00';
   const time = getTimeDiff(startDate);
   document.getElementById('counter').innerHTML = `
     <div class="counter-box"><span>${String(time.anos).padStart(2, '0')}</span><br>anos</div>
